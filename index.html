@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog của Tùng</h1>
+    </header>
+    <main>
+        <section id="posts">
+            <h2>Bài viết</h2>
+            <div id="post-list">
+                <!-- Các bài viết sẽ xuất hiện ở đây -->
+            </div>
+        </section>
+        <section id="add-post">
+            <h2>Thêm Bài Viết Mới</h2>
+            <form id="post-form">
+                <label for="title">Tiêu đề:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="content">Nội dung:</label>
+                <textarea id="content" name="content" rows="5" required></textarea>
+                <button type="submit">Thêm Bài Viết</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
